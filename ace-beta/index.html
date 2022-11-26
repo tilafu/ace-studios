@@ -59,42 +59,23 @@
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="#pablo"
+                href="#portfolio"
                 ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg "
+                  class="lg:text-gray-300 text-gray-500 fa fa-briefcase text-lg leading-lg "
                 ></i
-                ><span class="lg:hidden inline-block ml-2">FB</span></a
+                ><span class=" inline-block ml-2">Portfolio</span></a
               >
             </li>
-            <li class="flex items-center">
-              <a
-                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="#pablo"
-                ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-instagram text-lg leading-lg "
-                ></i
-                ><span class="lg:hidden inline-block ml-2">Gram</span></a
-              >
-            </li>
-            <li class="flex items-center">
-              <a
-                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="#pablo"
-                ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-whatsapp text-lg leading-lg "
-                ></i
-                ><span class="lg:hidden inline-block ml-2">App</span></a
-              >
-            </li>
+            
             <!-- Almighty button -->
             <li class="flex items-center">
-              <button
+              <a href="#templates"
                 class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
-                type="button"
+                
                 style="transition: all 0.15s ease 0s;"
               >
                 <i class="fas fa-arrow-alt-circle-down"></i> Templates
-              </button>
+            </a>
             </li>
           </ul>
         </div>
@@ -191,7 +172,8 @@
                 >
                   <i class="fas fa-rocket text-xl"></i>
                 </div>
-                <h3 class="text-3xl font-semibold">Portfolio Projects</h3>
+                <h3 
+                class="text-3xl font-semibold" id="portfolio">Portfolio Projects</h3>
                 <p class="mt-4 text-lg leading-relaxed text-gray-600">
                   Here are some companies we've had the honor of working with. Our services cover a large area, considering but not limited to:
                 </p>
@@ -255,7 +237,8 @@
         <!-- wrapper container div -->
         <div class="container mx-auto px-4">
           <!-- section title -->
-          <div class="flex flex-wrap justify-center text-center mb-24">
+          <div class="flex flex-wrap justify-center text-center mb-24"
+          id="templates">
             <div class="w-full lg:w-6/12 px-4">
               <h2 class="text-4xl font-semibold">Here are our Templates</h2>
               <p class="text-lg leading-relaxed m-4 text-gray-600">
@@ -563,7 +546,14 @@
                 type="button"
               >
                 <i class="flex fab fa-facebook"></i></button
-              ><button
+              >
+              <button
+                class="bg-white text-green-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-whatsapp"></i></button
+              >
+              <button
               class="bg-white text-pink-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
               type="button"
             >
@@ -572,11 +562,14 @@
             </div>
           </div>
           <div class="lg:w-6/12 px-4">
-            <div class="flex flex-wrap justify-end items-center mb-6">
+            <div class="flex flex-wrap mb-6 justify-end">
               <a href="#Home">
-                <img src="assets/img/Ace Logo-02.png" height="200px" width="200px" alt="Ace Logo" class="w-24">
+                <img src="assets/img/Ace Logo-02.png" height="200px" width="200px" alt="Ace Logo" class="w-24 flex justify-end">
               </a>
             </div>
+            <a href="#Home">
+              <i class="fa fa-chevron-circle-up justify-center" aria-hidden="true"></i>
+            </a>
           </div>
         </div>
         <hr class="my-6 border-gray-400" />
