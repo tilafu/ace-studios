@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#581c87" />
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/img/apple-icon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
+    />
+    <title>Ace Designs</title>
+  </head>
+  <!-- Body Starts -->
+  <body class="text-gray-800 antialiased">
+
+    <!-- nav bar settings -->
+
+    <nav
+      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 "
+    >
+    <!-- nav Content wrapping div -->
+      <div
+        class="container px-4 mx-auto flex flex-wrap items-center justify-between"
+      >
+      <!-- ace title nav -->
+        <div
+          class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+        >
+          <a
+            class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+            href="#"
+            id="Home"
+            >Ace Designs</a
+          ><button
+            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+            type="button"
+            onclick="toggleNavbar('example-collapse-navbar')"
+          >
+            <i class="text-white fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- Top bar nav -->
+        <div
+          class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+          id="example-collapse-navbar"
+        >
+          <!-- list of services -->
+          <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <li class="flex items-center">
+              <a
+                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="#portfolio"
+                ><i
+                  class="lg:text-gray-300 text-gray-500 fa fa-briefcase text-lg leading-lg "
+                ></i
+                ><span class=" inline-block ml-2">Portfolio</span></a
+              >
+            </li>
+            
+            <!-- Almighty button -->
+            <li class="flex items-center">
+              <a href="#templates"
+                class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+                
+                style="transition: all 0.15s ease 0s;"
+              >
+                <i class="fas fa-arrow-alt-circle-down"></i> Templates
+            </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- main body starts -->
+    <main>
+        <section class="pt-20 pb-48">
+            <!-- wrapper container div -->
+            <div class="container mx-auto px-4">
+              <!-- section title -->
+              <div class="flex flex-wrap justify-center text-center mb-24"
+              id="templates">
+                <div class="w-full lg:w-6/12 px-4">
+                  <h2 class="text-4xl font-semibold">Here are our Templates</h2>
+                  <p class="text-lg leading-relaxed m-4 text-gray-600">
+                    According to the National Oceanic and Atmospheric
+                    Administration, Ted, Scambos, NSIDClead scentist, puts the
+                    potentially record maximum.
+                  </p>
+                </div>
+              </div>
+    
+              <!-- elements  -->
+              <div class="flex flex-wrap">
+
+                <div class="container">
+                    <div class="portfolio-menu">
+                        <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                            <ul>
+                                <li class="active" data-filter="*">All</li>
+                                <li data-filter=".party">Party</li>
+                                <li data-filter=".corporate">Corporate</li>
+                                <li data-filter=".custom">Custom</li>
+                            </ul>
+                        </div>
+
+                        <div class="portfolio-item w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                            <div class="item party">
+                                <img alt="..."
+                                src="./assets/img/Capture.PNG"
+                                class="shadow-lg rounded-lg max-w-full mx-auto"
+                                style="max-width: 120px;"/>
+
+                            </div>
+
+                            <div class="item corporate w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"> 
+                                <img alt="..."
+                                src="./assets/img/Captureyty.PNG"
+                                class="shadow-lg rounded-lg max-w-full mx-auto"
+                                style="max-width: 120px;"/>
+                            </div>
+
+                            <div class="item custom w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"> 
+                                <img alt="..."
+                                    src="./assets/img/Capture 2.PNG"
+                                    class="shadow-lg rounded-lg max-w-full mx-auto"
+                                    style="max-width: 120px;"/>
+                            </div>
+
+                            <div class="item party w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"> 
+                                <img alt="..."
+                                    src="./assets/img/Capture 3.PNG"
+                                    class="shadow-lg rounded-lg max-w-full mx-auto"
+                                    style="max-width: 120px;"/>
+                            </div>
+
+                            <div class="item corporate w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"> 
+                                <img alt="..."
+                                    src="./assets/img/Capture 5.PNG"
+                                    class="shadow-lg rounded-lg max-w-full mx-auto"
+                                    style="max-width: 120px;"/>
+                            </div>
+
+                            <div class="item custom w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"> 
+                                <img alt="..."
+                                    src="./assets/img/Capture 6.PNG"
+                                    class="shadow-lg rounded-lg max-w-full mx-auto"
+                                    style="max-width: 120px;"/>
+                            </div>
+
+                            <div class="item party w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"> 
+                                <img alt="..."
+                                    src="./assets/img/Capture 7.PNG"
+                                    class="shadow-lg rounded-lg max-w-full mx-auto"
+                                    style="max-width: 120px;"/>
+                            </div>
+
+                            <div class="item corporate w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"> 
+                                <img alt="..."
+                                    src="./assets/img/Capture 8.PNG"
+                                    class="shadow-lg rounded-lg max-w-full mx-auto"
+                                    style="max-width: 120px;"/>
+                            </div>
+
+                            <div class="item custom w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"> 
+                                <img alt="..."
+                                    src="./assets/img/Capturenn.PNG"
+                                    class="shadow-lg rounded-lg max-w-full mx-auto"
+                                    style="max-width: 120px;"/>
+                            </div>
+
+                            <div class="item party w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"> 
+                                <img alt="..."
+                                    src="./assets/img/Captureyty.PNG"
+                                    class="shadow-lg rounded-lg max-w-full mx-auto"
+                                    style="max-width: 120px;"/>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Templates groups 1 -->
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+    
+                  <!-- Holds image but also other objects -->
+                  <div class="px-6">
+                    
+                    <!-- element 1 -->
+                    <div class="pt-6 text-center">
+                      <h5 class="text-xl font-bold">All</h5>
+                      <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                        Show me everything!
+                      </p>
+                      
+                    </div>                                    
+    
+                  </div>
+                </div>
+    
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                  <div class="px-6">
+                    <!-- element 2 -->
+                    <div class="pt-6 text-center">
+                      <h5 class="text-xl font-bold">Party Nation</h5>
+                      <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                        Attention Grabber
+                      </p>
+                      
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                  <div class="px-6">
+                    <!-- element 3 -->
+                    <div class="pt-6 text-center">
+                      <h5 class="text-xl font-bold">Corporate</h5>
+                      <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                        Minimalistic
+                      </p>
+                      
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                  <div class="px-6">
+                    
+                    <div class="pt-6 text-center">
+                      <h5 class="text-xl font-bold">Custom</h5>
+                      <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                        Sentimental, Random
+                      </p>
+                    </div>
+    
+                    <img
+                      alt="..."
+                      src="./assets/img/Karaoke Party-01.jpg"
+                      class="shadow-lg rounded-lg max-w-full mx-auto"
+                      style="max-width: 120px;"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- wrapped container items end -->
+            </div>
+          </section>
+    </main>
+    <!-- footer section begins -->
+    <footer class="relative bg-gray-300 pt-8 pb-6">
+
+      <!-- svg div -->
+      <div
+        class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px;"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+          <polygon
+            class="text-gray-300 fill-current"
+            points="2560 0 2560 100 0 100"
+          ></polygon>
+        </svg>
+      </div>
+
+      <!-- Archilles div -->
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4">
+            <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+            <h5 class="text-lg mt-0 mb-2 text-gray-700">
+              Find us on any of these platforms, we respond 1-2 business hours.
+            </h5>
+            <div class="mt-6">
+              <button
+                class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-facebook"></i></button
+              >
+              <button
+                class="bg-white text-green-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-whatsapp"></i></button
+              >
+              <button
+              class="bg-white text-pink-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button"
+            >
+              <i class="flex fab fa-instagram"></i></button
+            >
+            </div>
+          </div>
+          <div class="lg:w-6/12 px-4">
+            <div class="flex flex-wrap mb-6 justify-end">
+              <a href="#Home">
+                <img src="assets/img/Ace Logo-02.png" height="200px" width="200px" alt="Ace Logo" class="w-24 flex justify-end">
+              </a>
+            </div>
+            <a href="#Home">
+              <i class="fa fa-chevron-circle-up justify-center" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <hr class="my-6 border-gray-400" />
+        
+        <!-- Credentials div -->
+        <div
+          class="flex flex-wrap items-center md:justify-between justify-center"
+        >
+          <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+            <div class="text-sm text-gray-600 font-semibold py-1">
+              Copyright © 2022 Ace Designs KE <br>
+              <a
+                href="https://www.snod.co.ke"
+                target="_blank"
+                class="text-gray-600 hover:text-gray-900"
+                >Powered by SNOD</a
+              >.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+  </script>
+  
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+
+  <script>
+    $('.portfolio-item')
+  </script>
+</html>
