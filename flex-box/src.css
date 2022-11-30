@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.item{
+    @apply w-20 h-20 bg-purple-600 text-purple-200 m-3 rounded-md
+}
